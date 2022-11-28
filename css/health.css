@@ -1,0 +1,163 @@
+body{
+
+  background-color:white;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 650px;
+  margin-top: 15px;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 30px;
+  font-size: 18px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', serif;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+  display: flex;
+}
+
+ul li a:hover{
+  color: darkgreen;
+}
+
+h1{
+    margin-top: 60px;
+    font-family: 'Sacramento', cursive;
+    font-size: 300%;
+    color: #A8E890;
+    line-height: 1;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 150%;
+  margin-left: 50px;
+  font-weight: bolder;
+  line-height: 2;
+
+}
+
+h3 {
+  font-family: 'Montserrat', san-serif;
+  color: #202020;
+  margin-left: 100px;
+  font-size: 100%;
+  line-height: 150%;
+  font-weight: lighter;
+  width: 800px;
+}
+
+h4{
+  font-family: 'Montserrat', serif;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+
+.top-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.navbar{
+  width: auto;
+  height: 50px;
+  background-color: #A8E890;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 50px;
+}
+
+.middle-container{
+  height: 1000px;
+
+}
+
+.lines::after, .lines::before{
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: #50C878;
+  width: 45%
+
+}
+
+.lines::after{
+  left:0;
+  margin-top: -34px;
+}
+
+.lines::before{
+  right:0;
+  margin-top: 30px;
+}
+
+.circle{
+  height: 60px;
+  width: 60px;
+  border: 2px solid ;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+  color: #bcf5bc;
+}
+
+.square{
+  height: 60px;
+  width: 60px;
+  border: 2px solid ;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: #bcf5bc;
+  transform:  rotate(45deg);
+}
+.normal-square{
+  height: 60px;
+  width: 60px;
+  border: 2px solid ;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: #bcf5bc;
+  transform:  rotate(90deg);
+}
+
+
+.bottom-container{
+  background-color:#A8E890;
+  margin-bottom: -20px;
+  height: 150px;
+  margin-left: -8px;
+  margin-right: -8px;
+}

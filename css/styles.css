@@ -1,0 +1,187 @@
+body {
+  margin: auto;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 650px;
+  margin-top: 15px;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', serif;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+  display: flex;
+}
+
+ul li a:hover{
+  color: darkgreen;
+}
+
+h1 {
+  margin-top: 60px;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #A8E890;
+  line-height: 0.5;
+
+}
+h2 {
+  font-family: 'Montserrat', serif;
+  color: black;
+  font-size: 175%;
+  font-weight: bolder;
+  margin: auto;
+  vertical-align: middle;
+  width: 900px;
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'Montserrat', serif;
+  color: #202020;
+  font-size: 100%;
+  font-weight: lighter;
+  line-height: 1.5;
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h4{
+  font-family: 'Montserrat', serif;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+
+
+p {
+  font-family: 'Montserrat', serif;
+  font-size: 250%;
+  color: white;
+  font-weight: bold;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #5A5A5A;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.golfpicture{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.top-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.prototype{
+  height: 100px;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #A8E890;
+  line-height: 0.5;
+  width: 900px;
+  margin: auto;
+}
+.center{
+ top: 20%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+}
+
+.navbar{
+  width: auto;
+  height: 50px;
+  margin: auto;
+  background-color: #A8E890;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 50px;
+}
+.middle-container{
+  background-color:white ;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin-bottom: 200px;
+  height: 3250px;
+  text-align: center;
+
+}
+.video{
+  text-align: center;
+}
+
+.driving-range{
+  text-align: left;
+  margin: 100px auto 100px auto;
+}
+.drive-range{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.box{
+  text-align: center;
+  line-height: 1.5;
+}
+.Role-model{
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  display: inline-block;
+}
+
+.bottom-container{
+  background-color:#A8E890;
+  margin-bottom: -20px;
+  height: 150px;
+}
